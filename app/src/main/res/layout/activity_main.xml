@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.salton123.widget.textview.CenterStrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:stroke_color="#4d69ff"
+            app:stroke_width="4dp"
+            android:textColor="#c51162"
+            android:textSize="25sp"
+            android:background="#DD999999"
+            />
+
+
+        <com.salton123.widget.textview.CenterStrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:stroke_color="#4d69ff"
+            app:stroke_width="4dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#c51162"
+            app:font_type="DINMittelschrift_Alternate"
+            android:text="987654321"
+            android:textSize="30sp"
+            android:background="#DD999999"
+            />
+        <com.salton123.widget.textview.CenterStrokeTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:stroke_color="#4d69ff"
+            app:stroke_width="4dp"
+            android:textColor="#c51162"
+            android:layout_marginTop="10dp"
+            app:font_type="Refrigerator_Deluxe_Heavy"
+            android:text="987654321"
+            android:textSize="30sp"
+            android:background="#DD999999"
+            />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
